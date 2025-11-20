@@ -18,10 +18,10 @@ Mode manual bisa menyalakan relay via smartphone
 
 Library yang Dibutuhkan
 
-Blynk
-DHT
-Adafruit SSD1306
-Adafruit GFX
+Blynk,
+DHT,
+Adafruit SSD1306,
+Adafruit GFX,
 
 Upload Program
 
