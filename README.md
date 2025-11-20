@@ -24,30 +24,30 @@ Adafruit SSD1306,
 Adafruit GFX.
 
 
-Wiring (koneksi hardware)
+#Wiring (koneksi hardware)
 
-DHT11
+-DHT11
 
 Data → pin DHTPIN (pin 4)
 
 VCC → 5V (atau 3.3V tergantung modul), GND → GND
 
 
-Soil sensor (analog)
+-Soil sensor (analog)
 
 Out/A0 → SOIL_PIN (pin 34 pada ESP32)
 
 VCC → 3.3V, GND → GND
 
 
-OLED (I2C)
+-OLED 128x64 (I2C)
 
 SDA → pin 21, SCL → pin 22 (sesuai Wire.begin(21,22))
 
 VCC → 3.3V, GND → GND
 
 
-Pushbutton (NO) untuk mode OLED
+-Pushbutton (NO) untuk mode OLED
 
 Satu kaki tombol → BUTTON_PIN (pin 13)
 
@@ -56,7 +56,7 @@ Kaki lain tombol → GND
 Kenapa: karena di kode pinMode(BUTTON_PIN, INPUT_PULLUP), jadi pin di-pull-up internal (default HIGH). Tekan → hubung ke GND → reading LOW.
 
 
-Relay module (RELAY1, 2, 3)
+-Relay module (RELAY1, 2, 3)
 
 IN1 → pin 16 (RELAY1), IN2 → pin 17 (RELAY2), IN3 → pin 18 (RELAY3)
 
