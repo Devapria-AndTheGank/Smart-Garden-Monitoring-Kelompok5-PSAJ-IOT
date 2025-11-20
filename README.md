@@ -3,25 +3,25 @@ Proyek sistem otomasi smart garden berbasis ESP32 yang dilengkapi sensor suhu, k
 
 Fitur
 
-Monitoring suhu, kelembaban udara, dan kelembaban tanah
-Relay otomatis
-Tampilan OLED (logo, sensor, anggota kelompok)
-Dashboard Blynk IoT
-Mode manual & otomatis
+Monitoring suhu, kelembaban udara, dan kelembaban tanah,
+Relay otomatis,
+Tampilan OLED (logo, sensor, anggota kelompok),
+Dashboard Blynk IoT,
+Mode manual & otomatis.
 
 Cara Kerja
 
-Relay 2 aktif otomatis ketika suhu ≥ 31°C
-Relay 3 aktif otomatis ketika kelembaban tanah ≤ 20%
-Data dikirim ke Blynk dan ditampilkan di OLED
-Mode manual bisa menyalakan relay via smartphone
+Relay 2 aktif otomatis ketika suhu ≥ 31°C,
+Relay 3 aktif otomatis ketika kelembaban tanah ≤ 20%,
+Data dikirim ke Blynk dan ditampilkan di OLED,
+Mode manual bisa menyalakan relay via smartphone.
 
 Library yang Dibutuhkan
 
 Blynk,
 DHT,
 Adafruit SSD1306,
-Adafruit GFX,
+Adafruit GFX.
 
 Upload Program
 
