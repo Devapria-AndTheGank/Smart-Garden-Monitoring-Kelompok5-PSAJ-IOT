@@ -1,6 +1,6 @@
-//SMKBISA
-//SMKN2 PWT
-//KOMPETEN KOMPETITIF PROFESIONAL
+//BAHLIL KOMTOL
+//SKADA ALE
+//KOMPETEN KOMPETITIF PROFESIONAL SLEBEW
 
 //  BLYNK
 #define BLYNK_TEMPLATE_ID "TMPL6K-03pG8t"
@@ -48,7 +48,7 @@ unsigned long lastDebounce = 0;
 const int debounceDelay = 100;
 
 // TAMBAHAN AUTO MODE (+)
-bool autoMode = false;   // Mode otomatis dari Blynk
+bool autoMode = false;   // Mode otomatis TO Blynk
 float lastSuhu = 0;
 float lastTanah = 0;
 
