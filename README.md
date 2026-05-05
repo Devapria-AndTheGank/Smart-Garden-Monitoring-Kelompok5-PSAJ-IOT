@@ -74,5 +74,4 @@ Anggota
 5. Efa Fitriyani (29)
 6. Fadlan Mubina (30)
 
-THANK YOU..
-SEMOGA BERMANFAAT!!!
+THANK YOU!!! 
